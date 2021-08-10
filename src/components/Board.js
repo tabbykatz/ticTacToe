@@ -1,7 +1,9 @@
 import React from 'react';
 import Square from './Square';
+import '../App.css';
 
 const style = {
+  fontFamily: 'Data Control',
   marginTop: '50px',
   backgroundColor: 'black',
   border: '3px solid',

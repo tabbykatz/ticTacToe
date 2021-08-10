@@ -1,7 +1,9 @@
 import React from 'react';
+import '../App.css';
 
 
 const style = {
+  fontFamily: 'Data Control',
   background: '#CDCDCD',
   fontSize: '30px',
   fontWeight: '800',

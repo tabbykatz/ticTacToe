@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import { calculateWinner } from '../helpers.js';
 import Board from './Board';
+import '../App.css';
 
 const styles = {
+  fontFamily: 'Data Control',
   textAlign: 'center',
   // width: '200px',
   //margin: '20px auto',
