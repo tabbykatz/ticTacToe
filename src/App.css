@@ -1,8 +1,13 @@
-@import url('http://fonts.cdnfonts.com/css/data-control');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+@font-face {
+  font-family: 'Data Control';
+  src: local('Data Control'), url(./fonts/data-latin.ttf) format('truetype');
+}
+
 body {
   min-height: 100%;
-  display: grid;
-  grid-template-rows: 1fr auto;
+  
 }
 .App {
   font-size: 30px;
@@ -15,6 +20,10 @@ button {
   font-size: 25px;
   border: 2px solid;
   background-color: #fff;
+}
+
+.timetravel:hover {
+  color: #18b3f5;
 }
 
 .timetravel {
@@ -38,9 +47,4 @@ h1 {
   font-family: 'Data Control', sans-serif;
   text-align: center;
   font-size: 40px;
-}
-
-.footer {
-  grid-row-start: 2;
-  grid-row-end: 3;
 }
